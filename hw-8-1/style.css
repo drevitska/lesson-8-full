@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'miso';
+    src: url('./font/miso-webfont.woff2') format('woff2'),
+         url('./font/miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font: 300 1.6rem/1.15 "miso", sans-serif;
+    color: #333333;
+}
+section {
+    background-color: #fdde7e;
+}
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px;
+    margin: 0 auto;
+}
+.card {
+    width: 361px;
+    height: 442px;
+    background-color: #fff;
+    box-shadow: 0 2px  3px 0 #3333;
+    text-align: center;
+    border-radius: 3px;
+    transition: all 0.3s ease-in; /*плавность */
+}
+.img {
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    position: relative;
+    height: 133px;
+    width: 135px;
+    margin-bottom: 20px;
+}
+.bean {
+    position: absolute;
+    top: 51%;
+    left: 31%;
+}
+.smoke {
+    position: absolute;
+    left: 28%;
+  }
+  .cup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .price {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: #02995b;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .title {
+    font-size: 56px;
+  }
+  p {
+     font-size: 20px;
+     font-weight: 300; 
+  }
+.card:hover {
+    line-height: 1.5;
+    height: 500px;
+}  
+
+ 
+
+  
